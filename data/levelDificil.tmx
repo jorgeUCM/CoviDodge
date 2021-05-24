@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="120" height="18" tilewidth="34" tileheight="34" infinite="0" nextlayerid="8" nextobjectid="396">
+ <tileset firstgid="1" name="jeringa" tilewidth="150" tileheight="270" tilecount="1" columns="1">
+  <image source="../images/jerginga.png" trans="ff00ff" width="150" height="270"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="Princess"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="covidVerde" tilewidth="100" tileheight="100" tilecount="3" columns="3">
+  <image source="../images/covidVerde.png" trans="ff00ff" width="300" height="100"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="covidVerde"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="covidRojo" tilewidth="100" tileheight="100" tilecount="3" columns="3">
+  <image source="../images/covidRojo.png" trans="ff00ff" width="300" height="100"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="covidRojo"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="8" name="covidAzul" tilewidth="100" tileheight="100" tilecount="3" columns="3">
+  <image source="../images/covidAzul.png" trans="ff00ff" width="300" height="100"/>
+  <tile id="0">
+   <properties>
+    <property name="Class" value="covidAzul"/>
+   </properties>
+  </tile>
+ </tileset>
+ <imagelayer id="1" name="background" offsetx="-3.88313" offsety="3.88313">
+  <image source="../images/fondoNormal.png" width="1024" height="612"/>
+ </imagelayer>
+ <objectgroup id="7" name="objets" offsetx="-4.03591" offsety="0">
+  <object id="386" gid="2" x="845.971" y="207.4" width="100" height="100"/>
+  <object id="387" gid="2" x="1293.96" y="384.98" width="100" height="100"/>
+  <object id="388" gid="2" x="995.299" y="364.801" width="100" height="100"/>
+  <object id="389" gid="5" x="1386.78" y="158.969" width="100" height="100"/>
+  <object id="390" gid="5" x="1919.52" y="413.231" width="100" height="100"/>
+  <object id="391" gid="5" x="2351.36" y="352.693" width="100" height="100"/>
+  <object id="392" gid="5" x="1269.74" y="578.704" width="100" height="100"/>
+  <object id="393" gid="8" x="1176.92" y="110.539" width="100" height="100"/>
+  <object id="394" gid="8" x="1661.22" y="227.58" width="100" height="100"/>
+  <object id="395" gid="8" x="2662.13" y="171.077" width="100" height="100"/>
+ </objectgroup>
+</map>
