@@ -3,7 +3,7 @@
  <image source="../images/jerginga.png" trans="ff00ff" width="150" height="270"/>
  <tile id="0">
   <properties>
-   <property name="Class" value="Princess"/>
+   <property name="Class" value="Doctor"/>
   </properties>
  </tile>
 </tileset>
